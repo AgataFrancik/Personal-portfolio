@@ -10,9 +10,10 @@ export const AboutMe = () => {
         <Container>
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
-                    <span className='tagline'>Witam w portfolio!</span>
-                    <h1>Napis jakiś</h1>
-                    <p>I tutaj coś o sobie potem wymyślisz contante, ważne, by teraz było dość długie, żeby sprawdzić jak to wygląda, czy ładnie, czy nie</p>
+                    <span className='tagline'>Hi, I'm Agata!</span>
+                    <h1>Software Developer</h1>
+                    <p>Here is some information about me. I earned an bachelor degree from Silesian Uniwersity of Science in 2023 and a master's degree from Wroclaw University of Science imn 2024. I have been programming since high school, I started writing in C++, tested many languages, but eventually my heart was won by JavaScript.
+                        <br/> In my free time I write fantastic short stories, several of which I managed to publish. You can find the full list <a href='https://lubimyczytac.pl/autor/240787/agata-francik'>here</a>. Sometimes I illustrate anthologies or create graphic designs, most often for blouses or mugs. <a href='https://www.instagram.com/gruszelrysujepiszeirobifikolki/'>Here</a> is my instagram account with my art. I am an active person, I love climbing and swimming. I have been a Girl Scout for many years, now retired, but once very active.  </p>
                     <button className='contactMe-button' onClick={() => console.log("hue hue")}>Contact me!</button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
