@@ -10,7 +10,7 @@ export const Experience = () => {
             <Row>
                 <Col>
                     <h2>Experience</h2>
-                    <p>Most of my commercial experience is as a Frontend Developer, but I was also Backend Developer for a while</p>
+                    <p>Most of my commercial experience is as a Frontend Developer, but I was also Backend Developer for a while. </p>
                     <Row className='experience-list'>
                         <Col>
                             <img src={NexiLogo}/>
