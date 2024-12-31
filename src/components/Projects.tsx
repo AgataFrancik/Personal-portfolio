@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 import { ProjectCard } from './ProjectCard';
-import HtmlLogo from "../assets/img/HtmlLogo.png";
-import ReactLogo from "../assets/img/React.png";
-import TsLogo from "../assets/img/SassLogo.png";
+import comingSoon from "../assets/img/comingSoon.jpg";
+import grave from "../assets/img/grave.png";
+import library from "../assets/img/library.jpg";
 
 export const Projects = () => {
 
@@ -11,17 +11,17 @@ export const Projects = () => {
         {
             title: "Tomber",
             description: "Application developed in React with micro frontend technology. It is used to order grave cleaning services and locate their location on a map. The libraries used are Material UI, React Router and Axios. Keycloak was used to handle logging.",
-            imgUrl: HtmlLogo
+            imgUrl: grave
         },
         {
             title: "Coming soon",
             description: "Commercial project made as freelancer. I was fully responsible for frontend and created website with pure ts, html and sass. More details coming soon.",
-            imgUrl: HtmlLogo
+            imgUrl: comingSoon
         },
         {
             title: "Mobile aplication for books",
             description: "Mobile application created with React Native and Firebase. The application is used for cataloging books, and storing data on books read and those marked with a “star.” In addition, the application supports video files and sounds. Link for project: https://github.com/AgataFrancik/AplikacjaMobilna",
-            imgUrl: HtmlLogo
+            imgUrl: library
         }
     ]
   return (
@@ -60,12 +60,18 @@ export const Projects = () => {
                         </Tab.Pane>
                         <Tab.Pane eventKey='second'>
                             <Row>
-                                
+                                <h2>BEng Thesis</h2>
+                                <h4>Aplikacja internetowa do wspomagania opieki nad zwierzętami - Web application to support animal care
+                                </h4>
+                                <p>The project was defended at the Silesian University of Science, majoring in Computer Science. Developed in React along with libraries: Material UI, React Router DOM, Recharts and Axios. The server was written in C# and .NET framework with libraries: AutoMapper, Entity Framework, NLog, Fluent Validation and Jwt Bearer, and tested with the Postman tool. For security, passwords have been hashed.
+                                The application provided the ability to add, delete, modify and display animals.</p>
                             </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey='third'>
                             <Row>
-                                
+                            <h2>Master Thesis</h2>
+                            <h4>Badanie wpływu czynników środowiskowych na emocje programisty podczas procesu wytwarzania oprogramowania - Study of the impact of environmental factors on emotions of a programmer during the software development process </h4>
+                            <p>The project was defended at the Wrocław University of Science, majoring in Applied Computer Science. The project was defended at the Silesian University of Technology, majoring in Applied Informatics. The project aimed to study the emotional reactions of people exposed to various factors during programming. GSR readings, facial expression (face tracking), EMG and NASA TLX and SAM self-assessment questionnaires were measured. The results were then analyzed using Python language libraries.</p>
                             </Row>
                         </Tab.Pane>
                     </Tab.Content>

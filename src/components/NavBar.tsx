@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Github, Linkedin }  from 'react-bootstrap-icons';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState<String>('home');
@@ -39,8 +40,8 @@ export const NavBar = () => {
         </Nav>
         <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='#'>Linkedin</a>
-                <a href='#'>Github</a>
+                <a href='https://www.linkedin.com/in/agata-francik/'><Linkedin className='icon' color='white'/></a>
+                <a href='https://github.com/AgataFrancik'><Github className='icon' color='white'/></a>
             </div>
             <button className='contact-me-button' onClick={() => console.log("click")}><span>Contact me</span></button>
         </span>
