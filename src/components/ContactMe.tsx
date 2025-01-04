@@ -11,7 +11,7 @@ export const ContactMe = () => {
       <Container className="container">
         <Row>
           <Col>
-            <img src={Corgi} className="corgiImg"/>
+            <img src={Corgi} className="corgiImg" alt="corgiImg"/>
             <h2>Lets keep in touch!</h2>
             <p>
               If you are interested in cooperating, please send me an email to:
