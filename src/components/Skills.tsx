@@ -1,7 +1,5 @@
 import React from "react";
-import Col from "react-bootstrap/esm/Col";
-import Row from "react-bootstrap/esm/Row";
-import Container from "react-bootstrap/esm/Container";
+import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Star from "../assets/img/star.png";

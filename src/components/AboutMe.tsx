@@ -1,7 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
-import Col from "react-bootstrap/esm/Col";
-import Row from "react-bootstrap/esm/Row";
+import { Container, Col, Row } from "react-bootstrap";
 import SpaceDog from "../assets/img/SpaceDog.png";
 
 export const AboutMe = () => {
