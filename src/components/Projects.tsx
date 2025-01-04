@@ -30,7 +30,7 @@ export const Projects = () => {
             <Row>
                 <Col>
                     <h2>Projects</h2>
-                    <p>I tu znowusz opis jakiś taki ogolny co to za projekty beda, ateraz to taki placeholder bedzie</p>
+                    <p>The projects shown below are both hobby projects, created only by me, as well as group projects for studies and freelancing. The other two tabs show information about the thesis.</p>
                     <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                     <Nav variant='pills' className='nav-pills mb-5 justify-content-center'>
                     <Nav.Item>

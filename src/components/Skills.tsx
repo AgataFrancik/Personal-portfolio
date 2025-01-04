@@ -4,13 +4,10 @@ import Row from "react-bootstrap/esm/Row";
 import Container from "react-bootstrap/esm/Container";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import HtmlLogo from "../assets/img/HtmlLogo.png";
-import ReactLogo from "../assets/img/React.png";
-import TsLogo from "../assets/img/SassLogo.png";
-import SassLogo from "../assets/img/TsLogo.png";
-import JsLogo from "../assets/img/JsLogo.png";
-import CssLogo from "../assets/img/CssLogo.png";
-import JavaLogo from "../assets/img/JavaLogo.png";
+import Star from "../assets/img/star.png";
+import Star60 from "../assets/img/star-60.png";
+import Star40 from "../assets/img/star-40.png";
+import Star20 from "../assets/img/star-20.png";
 
 export const Skills = () => {
   const responsive = {
@@ -39,8 +36,7 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>My skills</h2>
               <p>
-                I tutaj coś o skillach trzeba napisać, też raczej długiego, ale
-                się zobaczy wsm
+              My main focus is on learning how to create websites, but I also occasionally do backend and web design. My passion is computer graphics, so I am constantly expanding my skills.
               </p>
               <Carousel
                 responsive={responsive}
@@ -48,32 +44,20 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img className="logo-img" src={HtmlLogo} />
-                  <h5>I tu opis</h5>
+                  <img className="logo-img" src={Star} alt='Star'/>
+                  <h5>Web Developer</h5>
                 </div>
                 <div className="item">
-                  <img className="logo-img" src={JsLogo} />
-                  <h5>I tu opis 2</h5>
+                  <img className="logo-img" src={Star60} alt='Star'/>
+                  <h5>Backend Developer</h5>
                 </div>
                 <div className="item">
-                  <img className="logo-img" src={CssLogo} />
-                  <h5>I tu opis 2</h5>
+                  <img className="logo-img" src={Star40} alt='Star'/>
+                  <h5>Graphic designer</h5>
                 </div>
                 <div className="item">
-                  <img className="logo-img" src={ReactLogo} />
-                  <h5>I tu opis 2</h5>
-                </div>
-                <div className="item">
-                  <img className="logo-img" src={SassLogo} />
-                  <h5>I tu opis 3</h5>
-                </div>
-                <div className="item">
-                  <img className="logo-img" src={TsLogo} />
-                  <h5>I tu opis 4</h5>
-                </div>
-                <div className="item">
-                  <img className="logo-img" src={JavaLogo} />
-                  <h5>I tu opis 4</h5>
+                  <img className="logo-img" src={Star20} alt='Star'/>
+                  <h5>UI/UX Designer</h5>
                 </div>
               </Carousel>
               <h2 className="technologies">Technologies</h2>

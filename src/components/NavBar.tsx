@@ -43,7 +43,10 @@ export const NavBar = () => {
                 <a href='https://www.linkedin.com/in/agata-francik/'><Linkedin className='icon' color='white'/></a>
                 <a href='https://github.com/AgataFrancik'><Github className='icon' color='white'/></a>
             </div>
-            <button className='contact-me-button' onClick={() => console.log("click")}><span>Contact me</span></button>
+            <button className='contact-me-button' onClick={() =>
+    document.getElementById("contactMe")?.scrollIntoView({
+      behavior: "smooth",
+    })}><span>Contact me</span></button>
         </span>
       </Navbar.Collapse>
     </Container>

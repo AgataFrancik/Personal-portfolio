@@ -5,18 +5,14 @@
 .item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 300px;
 }
 
 .skill {
     padding: 0 0 50px 0;
     position: relative;
   }
-//   .skill .container {
-//     margin: 0;
-//   }
+
   .skill-bx {
     background: #151515;
     border-radius: 64px;
