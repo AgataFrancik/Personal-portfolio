@@ -3,7 +3,7 @@ import { Col } from 'react-bootstrap';
 
 interface ProjectCardProps {
     title: string;
-    description: string;
+    description: React.ReactNode;
     imgUrl: string;
   }
 

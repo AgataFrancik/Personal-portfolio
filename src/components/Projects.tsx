@@ -20,7 +20,11 @@ export const Projects = () => {
         },
         {
             title: "Mobile aplication for books",
-            description: "Mobile application created with React Native and Firebase. The application is used for cataloging books, and storing data on books read and those marked with a “star.” In addition, the application supports video files and sounds. Link for project: https://github.com/AgataFrancik/AplikacjaMobilna",
+            description: (
+                <>
+                    Mobile application created with React Native and Firebase. The application is used for cataloging books, and storing data on books read and those marked with a “star.” In addition, the application supports video files and sounds. You can see it <a href="https://github.com/AgataFrancik/AplikacjaMobilna" target="_blank" rel="noopener noreferrer">here</a>.
+                </>
+            ),
             imgUrl: library
         }
     ]

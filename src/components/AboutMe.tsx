@@ -38,7 +38,7 @@ export const AboutMe = () => {
                 })
               }
             >
-              Contact me!
+              <div className="contactMe-text">Contact me!</div>
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
