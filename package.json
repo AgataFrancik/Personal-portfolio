@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://agatafrancik.github.io/portfolio",
+  "homepage": "https://agatafrancik.github.io/Persnal-portfolio",
   "dependencies": {
     "@types/react-dom": "^19.0.2",
     "bootstrap": "^5.3.3",
