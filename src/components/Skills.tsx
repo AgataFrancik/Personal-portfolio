@@ -74,6 +74,8 @@ export const Skills = () => {
                     <p className="list-item">PHP</p>
                     <p className="list-item">Twig</p>
                     <p className="list-item">SQL</p>
+                    <p className="list-item">Linux</p>
+                    <p className="list-item">Docker</p>
                 </Col>
                 <Col>
                 <p className="list-item">Figma</p>
