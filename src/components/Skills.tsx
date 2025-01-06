@@ -34,7 +34,9 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>My skills</h2>
               <p>
-              My main focus is on learning how to create websites, but I also occasionally do backend and web design. My passion is computer graphics, so I am constantly expanding my skills.
+                My main focus is on learning how to create websites, but I also
+                occasionally do backend and web design. My passion is computer
+                graphics, so I am constantly expanding my skills.
               </p>
               <Carousel
                 responsive={responsive}
@@ -42,44 +44,64 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img className="logo-img" src={Star} alt='Star'/>
+                  <img className="logo-img" src={Star} alt="Star" />
                   <h5>Web Developer</h5>
                 </div>
                 <div className="item">
-                  <img className="logo-img" src={Star60} alt='Star'/>
+                  <img className="logo-img" src={Star60} alt="Star" />
                   <h5>Backend Developer</h5>
                 </div>
                 <div className="item">
-                  <img className="logo-img" src={Star40} alt='Star'/>
+                  <img className="logo-img" src={Star40} alt="Star" />
                   <h5>Graphic designer</h5>
                 </div>
                 <div className="item">
-                  <img className="logo-img" src={Star20} alt='Star'/>
+                  <img className="logo-img" src={Star20} alt="Star" />
                   <h5>UI/UX Designer</h5>
                 </div>
               </Carousel>
               <h2 className="technologies">Technologies</h2>
               <Row>
                 <Col>
+                  <p className="list-item">
+                    <b>Frontend:</b>
+                  </p>
                   <p className="list-item">React</p>
                   <p className="list-item">JavaScript</p>
                   <p className="list-item">TypeScript</p>
                   <p className="list-item">HTML</p>
                   <p className="list-item">CSS</p>
                   <p className="list-item">Sass</p>
+                  <p className="list-item">Playwright</p>
                 </Col>
                 <Col>
-                    <p className="list-item">Java</p>
-                    <p className="list-item">Spring Boot</p>
-                    <p className="list-item">PHP</p>
-                    <p className="list-item">Twig</p>
-                    <p className="list-item">SQL</p>
-                    <p className="list-item">Linux</p>
-                    <p className="list-item">Docker</p>
+                  <p className="list-item">
+                    <b>Backend:</b>
+                  </p>
+                  <p className="list-item">Java</p>
+                  <p className="list-item">Spring Boot</p>
+                  <p className="list-item">PHP</p>
+                  <p className="list-item">Twig</p>
+                  <p className="list-item">SQL</p>
+                  <p className="list-item">Linux</p>
+                  <p className="list-item">Docker</p>
                 </Col>
                 <Col>
-                <p className="list-item">Figma</p>
-                <p className="list-item">Photoshop</p>
+                  <p className="list-item">
+                    <b>Design:</b>
+                  </p>
+                  <p className="list-item">Figma</p>
+                  <p className="list-item">Photoshop</p>
+                </Col>
+                <Col>
+                  <p className="list-item">
+                    <b>Libraries:</b>
+                  </p>
+                  <p className="list-item">Bootstrap</p>
+                  <p className="list-item">Material Ui</p>
+                  <p className="list-item">Redux</p>
+                  <p className="list-item">Axios</p>
+                  <p className="list-item">React Router</p>
                 </Col>
               </Row>
             </div>
